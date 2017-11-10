@@ -1,0 +1,84 @@
+/*
+ font-family: arial, tahoma, serif;
+    font-size: 10pt;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1,15em;
+*/
+
+
+body {
+    font: normal normal 12pt/1.3 arial, 
+    tahoma, serif;
+}
+#header img{
+    border: 10px solid yellow;
+    
+}
+.header {
+    padding: 20px;
+    border: 10px solid red;
+    margin: 30px 25px 20px 15px;
+    border-bottom: 10px dashed green;
+}
+
+.header img {
+    display:block;
+    float:none;
+}
+
+
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.53em
+}
+
+
+div { 
+    font-family: arial;
+    font-size: 1.3em;
+    color: red;
+}
+
+p {
+    font-size: 14pt;
+    line-height: 1.5em;
+}
+
+.czerwony{
+    color: red;
+    
+}
+
+.pogrubiony{
+    font-weight: bold;
+}
+
+.pochylony{
+    font-style: italic;
+}
+
+.wyrozniony{
+    color: #00FFFF;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p.srodek{
+    text-align: center;
+    clear: both;
+}
+
+img{
+    float: right;
+}
+
+
+#header {
+    padding: 40px 20px 10px 5px;
+    border-bottom: 10px dotted green;
+}

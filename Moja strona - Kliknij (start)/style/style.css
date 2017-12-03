@@ -39,6 +39,22 @@ body {
 
 .NAGLOWEK {
 	color: blue;
-	font-size: 125%;
+	font-size: 250%;
+	margin: 25px; 
 
 }
+
+.TRESC {
+	margin-left: 15px;
+	margin-top: -15px;
+	font-size: 150%;
+
+}
+
+
+img {
+	border: 5px;
+	border-color: black;
+
+}
+

@@ -1,0 +1,44 @@
+body {
+	background-color: #CCCC33;
+
+}
+
+#TYTUL {
+	font-size: 250%;
+
+}
+
+#stopka {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #CCCC66;
+    color: #FFFFCC;
+    text-align: center;
+}
+
+#menu {
+	
+	font-size: 125%;
+	margin-left: -15px;
+	margin-top: -15px;
+	margin-right: -15px;
+	margin-bottom: 25px;
+	padding: 13px;
+	background-color: #CCCC66;
+	border: 0px;
+}
+
+
+
+ a {
+   color: black;
+   
+}
+
+.NAGLOWEK {
+	color: blue;
+	font-size: 125%;
+
+}

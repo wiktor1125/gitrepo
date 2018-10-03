@@ -13,14 +13,6 @@
 #program kończy działenie po wprowadzeniu wartości 0
 
 
-def pobierzMiesiąc():
-    
-    liczba = 
-    
-    while
-
-
-
 def main(args):
     
     suma = 0

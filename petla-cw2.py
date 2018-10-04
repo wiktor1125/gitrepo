@@ -3,21 +3,6 @@
 #
 #  petla-cw2.py
 #  
-#  Copyright 2018  <>
-#  
-#DANE WEJŚCIOWE:
-#liczby dodatnie podawane przez użytkonika 
-#DANE WYJŚCIOWE:
-#suma liczb podanych przez uzytkownika
-#program musi zapewnic poprwanosć danych,
-#program kończy działenie po wprowadzeniu wartości 0
-
-
-def pobierzMiesiąc():
-    
-    liczba = 
-    
-    while
 
 
 

@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Wiktor Malinowski -- project manager & programmer -- e-mail: wiktor.malinowski@lo1.sandomierz.pl
+	
+	Micha³ Rawski -- programmer -- e-mail: michal.rawski@lo1.sandomierz.pl
+
+	Adam Garnuszek -- programer -- e-mail: adam.garnuszek@lo1.sandomierz.pl
+
+# THANKS
+
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    jQuery, Modernizr, Normalize.css, p5js

@@ -3,7 +3,18 @@
 #
 #  petla-cw2.py
 #  
+<<<<<<< HEAD
 
+=======
+#  Copyright 2018  <>
+#  
+#DANE WEJŚCIOWE:
+#liczby dodatnie podawane przez użytkonika 
+#DANE WYJŚCIOWE:
+#suma liczb podanych przez uzytkownika
+#program musi zapewnic poprwanosć danych,
+#program kończy działenie po wprowadzeniu wartości 0
+>>>>>>> 50547d840806bc5627c82d61fa1a91478d353a21
 
 
 def main(args):

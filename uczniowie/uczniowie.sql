@@ -15,7 +15,7 @@ FOREIGN KEY (id_klasa) REFERENCES klasy(id)
 DROP TABLE IF EXISTS tbKlasy;
 
 CREATE TABLE tbKlasy(
-id INTEGER,
+id INTEGER PRIMARY KEY AUTOINCREMET,
 klasa TEXT,
 rok_naboru STRING,
 rok_matury STRING
@@ -26,7 +26,7 @@ rok_matury STRING
 DROP TABLE IF EXISTS tbPrzedmioty;
 
 CREATE TABLE tbPrzedmioty(
-id INTEGER,
+id INTEGER PRIAMRY KEY AUTOINCREMENT,
 przedmiot TEXT,
 imie_naucz TEXT,
 nazwisko_naucz TEXT,
@@ -38,9 +38,9 @@ DROP TABLE IF EXISTS tbOceny;
 CREATE TABLE tbOceny(
 id INTEGER NOT NULL,
 datad DATE,
-id_uczen INTEGER,
-id_przedmiot INTEGER,
-ocena INTEGER,
+id_uczen INTEGER NOT NULL,
+id_przedmiot INTEGER NOT NULL,
+ocena INTEGER NOT NULL,
 FOREIGN KEY (id_uczen) REFERENCES uczniowie(id),
 FOREIGN KEY (id_przedmiot) REFERENCES przedmioty(id)
 );

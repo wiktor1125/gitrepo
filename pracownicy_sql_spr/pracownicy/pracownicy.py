@@ -28,7 +28,7 @@ def dane_z_pliku(nazwa_pliku, separator=','):
 
 def kwerenda_1(cur):
     cur.execute("""
-        SELECT * FROM magazyn
+        SELECT * FROM pracownicy
     """)
 
     """
@@ -36,8 +36,6 @@ def kwerenda_1(cur):
     SELECT name, downloads FROM fakeapps WHERE downloads > (SELECT AVG(downloads) FROM fakeapps) ORDER BY downloads DESC LIMIT 5;
     SELECT COUNT(name) FROM fakeapps WHERE downloads > (SELECT AVG(downloads) FROM fakeapps);
     SELECT category, SUM(downloads) AS suma_pobran FROM fakeapps GROUP BY category ORDER BY suma_pobran DESC;
-
-
     """
     wyniki = cur.fetchall()  # pobranie wszystkich rekordów na raz
     for row in wyniki:  # odczytywanie kolejnych rekordów
@@ -53,8 +51,8 @@ def ile_kolumn(cur, tab):
 
 def main(args):
     # KONFIGURACJA #######
-    baza_nazwa = 'uczniowie'
-    tabele = ['uczniowie', 'klasy', 'przedmioty', 'oceny']
+    baza_nazwa = 'pracownicy'
+    tabele = ['pracownicy', 'kontakty', 'stanowiska', 'place']
     roz = '.csv'
     #####################
 
@@ -93,4 +91,4 @@ def main(args):
 
 if __name__ == '__main__':
     import sys
-    sys.exit(main(sys.argv))
+sys.exit(main(sys.argv))
